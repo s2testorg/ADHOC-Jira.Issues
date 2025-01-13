@@ -1,0 +1,101 @@
+[
+    {
+        "group": "·Overall·",
+        "name": "session.1",
+        "specs": [
+            {
+                "name": "1one",
+                "cases": [
+                    {
+                        "name": "Passed",
+                        "status": "Passed",
+                        "comments": [
+                            "[![Testspace](https://www.testspace.com/img/Testspace.png)](https://www.testspace.com)",
+                            "and some markdown text:",
+                            "- this :smile:",
+                            "- and that"
+                        ]
+                    },
+                    {
+                        "name": "Failed",
+                        "status": "Failed",
+                        "comments": [
+                            "![Testspace](https://www.testspace.com/img/Testspace.png 'Goto https://www.testspace.com')",
+                            "<br>",
+                            "# Markdown Syntax",
+                            "Refer to this [help section](https://help.testspace.com/manual/implementation-spec#markdown-cheat-sheet) for markdown supported",
+                            "## Lists",
+                            "* First Step",
+                            "  * sub-step 1",
+                            "  * sub-step 2",
+                            "* Second Step",
+                            "## Emphasis",
+                            "**bold**",
+                            "*Italic*",
+                            "~~strikethrough~~",
+                            "**Bold** and _italic_",
+                            "## Tables",
+                            "TABLE FORMAT 1",
+                            "First Header|Second Header\n-- | -- \nContent from cell 1|Content from cell 2\nContent in the first column|Content in the second column",
+                            " ",
+                            " ",
+                            "TABLE FORMAT 2",
+                            "|First Header|Second Header|\n|--|--|\n|Content from cell 1|Content from cell 2|\n|Content in the first column |Content in the second column|",
+                            "## Images",
+                            "![My Image](https://upload.wikimedia.org/wikipedia/commons/3/3b/Check_icon.svg 'Is this a check')",
+                            "## Code block",
+                            "```\n$testspace results\n```",
+                            "I think you should use an `<addr>` element here instead.",
+                            "## Links",
+                            "https://testspace.com",
+                            "[Testspace](https://testspace.com)",
+                            "## Quoting text",
+                            "> Beware of this and that",
+                            "## Emoji",
+                            ":relaxed:",
+                            ":eyes:",
+                            ":+1:"
+                        ]
+                    },
+                    {
+                        "name": "Blocked",
+                        "status": "Blocked",
+                        "comments": [
+                            "TABLE FORMAT 1",
+                            "First Header|Second Header\n-- | -- \nContent from cell 1|Content from cell 2\nContent in the first column|Content in the second column",
+                            " ",
+                            " ",
+                            "TABLE FORMAT 2",
+                            "|First Header|Second Header|\n|--|--|\n|Content from cell 1|Content from cell 2|\n|Content in the first column |Content in the second column|"
+                        ]
+                    },
+                    {
+                        "name": "Not Applicable",
+                        "status": "Not Applicable"
+                    }
+                ]
+            },
+            {
+                "name": "2two",
+                "cases": [
+                    {
+                        "name": "Passed",
+                        "status": "Passed"
+                    },
+                    {
+                        "name": "Failed",
+                        "status": "Failed"
+                    },
+                    {
+                        "name": "Blocked",
+                        "status": "Blocked"
+                    },
+                    {
+                        "name": "Not Applicable",
+                        "status": "Not Applicable"
+                    }
+                ]
+            }
+        ]
+    }
+]
