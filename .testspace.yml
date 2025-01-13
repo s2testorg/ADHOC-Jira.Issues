@@ -1,0 +1,6 @@
+manual:
+issues:
+  provider: jira:s2technologies/TST
+commit_status: false
+release:
+  - "*_release"
